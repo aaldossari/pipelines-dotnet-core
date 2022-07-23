@@ -9,7 +9,7 @@ pipeline {
         AWS_S3_BUCKET = "artifact-dotnet-dll-files-1"
         ARTIFACT_NAME = "pipelines-dotnet-core.dll"
         AWS_EB_APP_NAME = "sample-dotnet-app-new"
-        AWS_EB_APP_VERSION = "${BUILD_ID}"
+        AWS_EB_APP_VERSION = "Sample Application"
         AWS_EB_ENVIRONMENT = "Sampledotnetappnew-env"
 
     }
